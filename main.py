@@ -2,6 +2,5 @@
 print ("baboon")
 # gab code 
 print("First code")
-
 # Vikki
-## Print something here
+print("bananas are friends not food")

@@ -4,3 +4,15 @@ print ("baboon")
 print("First code")
 # Vikki
 print("bananas are friends not food")
+
+task_name = None
+task_state = None 
+
+def getTaskName():
+    pass
+
+def displayTaskName():
+    pass
+
+def displayTaskState():
+    pass

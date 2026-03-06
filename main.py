@@ -6,13 +6,14 @@ print("First code")
 print("bananas are friends not food")
 
 task_name = None
-task_state = None 
+task_state = None
 
-def getTaskName():
-    pass
+def setTaskName():
+    global task_name
+    task_name = input("Enter task name: ")
 
 def displayTaskName():
-    pass
+    print("Task: " + task_name)
 
 def setTaskState():
     pass
@@ -20,7 +21,7 @@ def setTaskState():
 def displayTaskState():
     pass
 
-getTaskName()
+setTaskName()
 displayTaskName()
 setTaskState()
 displayTaskState()

@@ -5,6 +5,8 @@ print("First code")
 # Vikki
 print("bananas are friends not food")
 
+from task_logic import task
+
 task_name = None
 task_state = None
 
@@ -38,7 +40,14 @@ def setTaskState():
 def displayTaskState():
     print("Task state:", task_state)
 
-setTaskName()
-displayTaskName()
-setTaskState()
-displayTaskState()
+
+firstTask = task()
+#set task name
+#display task name
+#set task state
+#display task state
+secondTask = task()
+#set task name
+#display task name
+#set task state
+#display task state

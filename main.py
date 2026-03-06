@@ -15,10 +15,10 @@ def displayTaskName():
     pass
 
 def setTaskState():
-    pass
+    task_state = input("Enter a task:")
 
 def displayTaskState():
-    pass
+    print(task_state)
 
 getTaskName()
 displayTaskName()

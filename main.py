@@ -14,5 +14,13 @@ def getTaskName():
 def displayTaskName():
     pass
 
+def setTaskState():
+    pass
+
 def displayTaskState():
     pass
+
+getTaskName()
+displayTaskName()
+setTaskState()
+displayTaskState()

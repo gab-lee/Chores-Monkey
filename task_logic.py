@@ -4,6 +4,7 @@ class task:
         self.state = None 
 
     def setTaskName():
+        #function sets task as user input 
         pass
 
     def displayTaskName():
